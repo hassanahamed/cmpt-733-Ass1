@@ -5,8 +5,15 @@
         "method": "GET",
         "params": {
             "site": "stackoverflow"
+        },
+        "pagination": {
+            "type": "page",
+            "pageKey": "page",
+            "limitKey": "pagesize",
+            "maxCount": 50
         }
     },
+    
     "response": {
         "ctype": "application/json",
         "tablePath": "$.items[*]",

@@ -1,5 +1,7 @@
 {
     "tables": [
-        "answers"
+        "answers",
+        "users",
+        "comments"
     ]
 }
