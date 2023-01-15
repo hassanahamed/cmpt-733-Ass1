@@ -4,8 +4,10 @@
         "url": "https://api.stackexchange.com/2.3/comments",
         "method": "GET",
         "params": {
-            "site": "stackoverflow",
-            "key": "RcpYF1iaC73L1h4MleRkAQ(("
+            "site": true,
+            "key": false ,          
+            "order":false,
+            "sort":false
         },
         "pagination": {
             "type": "page",
