@@ -4,6 +4,7 @@
         "questions",
         "users",
         "comments",
-        "search"
+        "search",
+        "tags"
     ]
 }
